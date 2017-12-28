@@ -1,0 +1,238 @@
+/******* <-- general aspects --> *******/
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+.gradient1 {
+    /* background: linear-gradient(to bottom right, #5e055e 1%, #e80c7a 100%); */
+    background: linear-gradient(#5e055e 1%, #e80c7a 100%);
+}
+
+.pink-color {
+    color: #e80c7a;
+}
+
+.pink-bg {
+    background-color: #e80c7a;
+}
+
+.vh100 {
+    height: 100vh;
+    width: auto;
+}
+
+.vh85 {
+    height: 85vh;
+    width: auto;
+}
+
+.form-style {
+    
+    background-color: #000000;
+    width: 70vh;
+}
+
+.outline {
+    outline: 1px solid #cccccc;
+}
+
+.container-flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-start; */
+	padding: 2em;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.padding-sign-up {
+    padding-left: 0px;
+    padding-right: 18vh;
+}
+
+.padding-verify {
+    padding-left: 0;
+    padding-right: 8vh;
+}
+
+ /******* <-- index --> *******/
+.logo {
+    height: 25vh;
+    width: auto;
+}
+
+/******* <-- begin view--> *******/
+.bg-img {
+    background-image: url(../assets/images/conduce.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+/* .container-flex-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2em;
+    height: 100vh;
+    align-items: center;
+} */
+
+.white-logo {
+    height: auto;
+    width: 15vh;
+    margin-left: 15vh;
+    padding-bottom: 10vh;
+    padding-top: 7vh;
+}
+
+.pink-logo {
+    height: auto;
+    width: 50vh;
+    /* width: 80vh; */
+    padding-bottom: 10vh
+}
+
+/******* <-- Buttons--> *******/
+
+/* begin view button */
+.lyft-btn-1 { 
+    color: white;
+    background-color: transparent;
+}
+
+/* back button */
+.glyphicon-back-btn {
+    color: #e80c7a;
+    font-size: 2em;
+}
+
+/* form sign up 1 view */
+.dropdown-menu {
+    /* min-width: 90px; */
+    min-width: 7.25em;
+}
+
+.caret {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 10px dashed #e80c7a;
+}
+
+/* "NEXT" button sign up view */
+.btn-next {
+    background-color: #e80c7a;
+    /* border-color: #ccc; */
+    color: #fff;
+    display: block;
+    font-weight: bold;
+}
+
+/* .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+} */
+
+/* line divider sign up 1 view */
+.line-divider {
+    text-align: center;
+    padding: .9em 0;
+}
+
+.line-divider::after {
+    content: " ";
+    background-color: #cccccc;
+    display: block;
+    /* margin: 3px 1px; */
+    margin: .9em .5em .5em 0;
+    height: .15em;
+    width: 100%;
+}
+
+/* titles sign up view*/
+.title {
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+/******* <-- verify phone number --> *******/
+
+/* input */
+.verify-phone-input {
+    width: 23%;
+    border: none;
+    color: #5e055e; 
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.glyphicon-icon-input {
+    color: #e80c7a;
+}
+
+/******* <-- sign up 2 view --> *******/
+
+.display-table {
+    display: inline-table;
+}
+
+.first-name-padding {
+    padding-right: 0;
+    padding-left: -2px;
+}
+
+.last-name-padding {
+    padding-left: 0;
+    padding-right: -2px;
+}
+
+.border-right-style {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-right: none;
+    width: 100%;
+}
+
+.border-left-style {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-left: 1px solid #cccccc;
+    width: 100%;
+}
+
+/******* <-- end view --> *******/
+.checkbox-style {
+    padding-left: .5em;
+    padding-top: 3em;
+    height: 40vh;
+}
+
+
+
+
+
+
